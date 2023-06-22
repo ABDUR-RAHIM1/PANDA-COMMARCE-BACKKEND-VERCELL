@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "index.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/index.js" }
+    ],
+    "env": {
+      "MONGO_URL": "mongodb+srv://abrar:3NUfKV42ivL3fxNm@cluster0.ekd31bu.mongodb.net/PandaCommarce?retryWrites=true&w=majority",
+      "PORT": "8000"
+
+    }
+  }
+  

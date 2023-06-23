@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build" : "npm i"
+    "start": "node index.js"
   },
   "author": "ABDUR RAHIM",
   "license": "ISC",
@@ -23,6 +22,6 @@
     "uuid": "^9.0.0"
   },
   "engines": {
-  "node": "9.5.0"
-}
+    "node": "9.5.0"
+  }
 }

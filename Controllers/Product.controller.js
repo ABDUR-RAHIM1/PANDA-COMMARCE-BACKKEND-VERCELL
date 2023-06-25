@@ -12,12 +12,13 @@ const getAllProducts = async(req, res)=>{
 
 // add products
 const addProduct = async(req, res)=>{
-    const {title, desc , price, categorie} = req.body; 
+    const {title, desc , price, categorie, image} = req.body;   
     const newProduct = await Product({
         title : title,
         desc : desc,
         price :price , 
         categorie : categorie,
+        image : image
     })
     try {
         await newProduct.save()

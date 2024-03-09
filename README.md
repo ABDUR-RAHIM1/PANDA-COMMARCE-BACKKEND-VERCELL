@@ -1,1 +1,1 @@
-# PANDA-COMMARCE-BACKKEND-VERCELL
+# super-deal - e-commarce project
